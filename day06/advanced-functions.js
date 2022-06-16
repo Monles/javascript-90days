@@ -22,3 +22,12 @@ const multiplyBy5 = curriedMultiply(5);
 //-----------------------------------------------------
 
 //compose
+const compose = (a, b) => (x) => a(b(x));
+
+const sum = (num) => num + 1;
+
+compose(sum, sum)(5);
+
+//-----------------------------------------------------
+
+//avoiding side effects
