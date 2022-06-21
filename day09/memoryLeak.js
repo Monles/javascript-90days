@@ -8,3 +8,8 @@ var c = 1;
 //event Listener
 var element = document.getElementById("button");
 element.addEventListener("click", onclick);
+
+//setInterval
+setInterval(() => {
+  //refernecing objects...
+});
